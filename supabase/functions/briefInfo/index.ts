@@ -5,25 +5,83 @@
 // Setup type definitions for built-in Supabase Runtime APIs
 /// <reference types="https://esm.sh/@supabase/functions-js/src/edge-runtime.d.ts" />
 
+import { createClient } from "npm:@supabase/supabase-js@2.39.3";
 
-import {createClient} from 'npm:@supabase/supabase-js@2.39.3';
+const supabase = createClient(
+  Deno.env.get("SUPABASE_URL")!,
+  Deno.env.get("SUPABASE_ANON_KEY")!,
+);
 
+interface Post {
+  tag_id: number;
+}
 
-console.log("Hello from Functions!")
+interface Station {
+  station_id: number;
+  station_name: string;
+  post: Post[];
+}
 
-const supabase = createClient(Deno.env.get("SUPABASE_URL"),Deno.env.get("SUPABASE_ANON_KEY"))
+Deno.serve(async () => {
+  const { data, error } = await supabase
+    .from("station")
+    .select(`
+    station_id,
+    station_name,
+    post!left(
+      tag_id
+    )
+  `)
+    .order("station_id", { ascending: true });
 
-Deno.serve(async (req) => {
-const {data:stations, error} = await supabase.from('station').select('station_name');
-if(error) console.log(error);
-  const data = {
-    message: `Hello, here are the stations: ${stations.map(station => station.station_name).join(", ")}`,
+  if (error) {
+    return new Response(
+      JSON.stringify({
+        success: false,
+        code: 500,
+        message: "서버 오류",
+        data: {},
+        error,
+      }),
+      {
+        status: 500,
+        headers: { "Content-Type": "application/json" },
+      },
+    );
   }
 
+  const stations = data.map((station: Station) => {
+    // 가장 많이 사용된 tagId 찾기
+    const tagCounts = station.post.reduce(
+      (acc: { [key: number]: number }, post: Post) => {
+        acc[post.tag_id] = (acc[post.tag_id] || 0) + 1;
+        return acc;
+      },
+      {},
+    );
+    const maxTagId = Object.keys(tagCounts).reduce(
+      (a, b) => tagCounts[parseInt(a)] > tagCounts[parseInt(b)] ? a : b,
+      "0",
+    );
+
+    return {
+      stationId: station.station_id,
+      stationName: station.station_name,
+      tagId: maxTagId ? parseInt(maxTagId) : 0,
+      contentCount: station.post.length,
+    };
+  });
+
   return new Response(
-    JSON.stringify(data),
-    { headers: { "Content-Type": "application/json" } },
-  )
-})
-
-
+    JSON.stringify({
+      success: true,
+      code: 200,
+      message: "성공",
+      data: { stations },
+    }),
+    {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    },
+  );
+});
