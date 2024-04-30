@@ -5,22 +5,8 @@
 // Setup type definitions for built-in Supabase Runtime APIs
 /// <reference types="https://esm.sh/@supabase/functions-js/src/edge-runtime.d.ts" />
 
-import { createClient } from "npm:@supabase/supabase-js@2.39.3";
-
-const supabase = createClient(
-  Deno.env.get("SUPABASE_URL")!,
-  Deno.env.get("SUPABASE_ANON_KEY")!,
-);
-
-interface Post {
-  tag_id: number;
-}
-
-interface Station {
-  station_id: number;
-  station_name: string;
-  post: Post[];
-}
+import { supabase } from "../shared/client.ts";
+import { Station } from "./briefInfo.type.ts";
 
 Deno.serve(async () => {
   const { data, error } = await supabase
@@ -53,7 +39,7 @@ Deno.serve(async () => {
   const stations = data.map((station: Station) => {
     // 가장 많이 사용된 tagId 찾기
     const tagCounts = station.post.reduce(
-      (acc: { [key: number]: number }, post: Post) => {
+      (acc: { [key: number]: number }, post) => {
         acc[post.tag_id] = (acc[post.tag_id] || 0) + 1;
         return acc;
       },
