@@ -5,7 +5,7 @@
 // Setup type definitions for built-in Supabase Runtime APIs
 /// <reference types="https://esm.sh/@supabase/functions-js/src/edge-runtime.d.ts" />
 
-import { supabase } from "../shared/client.ts";
+import { supabase } from "../_shared/client.ts";
 import { Station } from "./briefInfo.type.ts";
 
 Deno.serve(async () => {
