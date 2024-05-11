@@ -25,13 +25,13 @@
 
     "paths": {
       "~/atoms/*": ["./src/atoms/*"],
-      "~/molecures/*": ["./src/molecures/*"],
-      "~/organics/*": ["./src/organics/*"],
+      "~/molecures/*": ["src/molecules/*"],
+      "~/organics/*": ["src/organisms/*"],
       "~/templates/*": ["./src/templates/*"],
       "~/pages/*": ["./src/pages/*"],
-      "~/*": ["./*"]
+      "~/*": ["./src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/style"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
