@@ -24,11 +24,11 @@
     "skipLibCheck": true,
 
     "paths": {
-      "~/atoms/*": ["./src/atoms/*"],
-      "~/molecures/*": ["src/molecules/*"],
-      "~/organics/*": ["src/organisms/*"],
-      "~/templates/*": ["./src/templates/*"],
-      "~/pages/*": ["./src/pages/*"],
+      "~/atoms/*": ["src/components/atoms/*"],
+      "~/molecures/*": ["src/components/molecules/*"],
+      "~/organics/*": ["src/components/organisms/*"],
+      "~/templates/*": ["src/components/templates/*"],
+      "~/pages/*": ["src/components/pages/*"],
       "~/*": ["./src/*"]
     }
   },
