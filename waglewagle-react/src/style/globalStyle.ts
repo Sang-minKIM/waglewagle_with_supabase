@@ -1,6 +1,6 @@
-import { Global, css } from "@emotion/react";
+import { css } from "@emotion/react";
 
-const GlobalStyle = css`
+export const globalStyle = css`
     * {
         margin: 0;
         padding: 0;
@@ -61,11 +61,3 @@ const GlobalStyle = css`
         margin: 0 auto;
     }
 `;
-
-export const GlobalStyleProvider = () => {
-    return (
-        <>
-            <Global styles={GlobalStyle} />
-        </>
-    );
-};

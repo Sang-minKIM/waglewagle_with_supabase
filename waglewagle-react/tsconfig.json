@@ -24,14 +24,15 @@
     "skipLibCheck": true,
 
     "paths": {
-      "~/atoms/*": ["./src/atoms/*"],
-      "~/molecures/*": ["./src/molecures/*"],
-      "~/organics/*": ["./src/organics/*"],
-      "~/templates/*": ["./src/templates/*"],
-      "~/pages/*": ["./src/pages/*"],
-      "~/*": ["./*"]
+      "~/atoms/*": ["src/components/atoms/*"],
+      "~/molecures/*": ["src/components/molecules/*"],
+      "~/organics/*": ["src/components/organisms/*"],
+      "~/templates/*": ["src/components/templates/*"],
+      "~/pages/*": ["src/pages/*"],
+      "~/*": ["./src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/style"],
+  "exclude": ["node_modules", "dist", "test"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
