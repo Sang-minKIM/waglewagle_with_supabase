@@ -29,7 +29,8 @@
       "~/organics/*": ["src/components/organisms/*"],
       "~/templates/*": ["src/components/templates/*"],
       "~/pages/*": ["src/pages/*"],
-      "~/*": ["./src/*"]
+      "~/style/*": ["src/style/*"],
+      "~/*": ["src/*"]
     }
   },
   "include": ["src", "src/style"],

@@ -3,7 +3,7 @@ import React from "react";
 import { ThemeProvider } from "@emotion/react";
 import type { Preview } from "@storybook/react";
 
-import { theme } from "../src/style/theme";
+import { theme } from "../src/style";
 
 const preview: Preview = {
   parameters: {
