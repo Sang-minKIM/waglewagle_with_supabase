@@ -1,12 +1,18 @@
 import styled from "@emotion/styled";
 
-export const Label = ({ children }: { children: React.ReactNode }) => {
-  return <Wrapper>{children}</Wrapper>;
+import { TextProps } from "./text.types";
+
+export const Label = ({ children, font = "M14", color = "gray500" }: TextProps) => {
+  return (
+    <Wrapper font={font} color={color}>
+      {children}
+    </Wrapper>
+  );
 };
 
-const Wrapper = styled.label<{ color?: string; font?: string }>`
-  font-size: ${({ theme, font = "M14" }) => theme.typography[font as keyof typeof theme.typography].fontSize};
-  font-weight: ${({ theme, font = "M14" }) => theme.typography[font as keyof typeof theme.typography].fontWeight};
-  line-height: ${({ theme, font = "M14" }) => theme.typography[font as keyof typeof theme.typography].lineHeight};
-  color: ${({ theme, color = "gray500" }) => theme.colors[color as keyof typeof theme.colors]};
+const Wrapper = styled.label<{ color: string; font: string }>`
+  font-size: ${({ theme, font }) => theme.typography[font as keyof typeof theme.typography].fontSize};
+  font-weight: ${({ theme, font }) => theme.typography[font as keyof typeof theme.typography].fontWeight};
+  line-height: ${({ theme, font }) => theme.typography[font as keyof typeof theme.typography].lineHeight};
+  color: ${({ theme, color }) => theme.colors[color as keyof typeof theme.colors]};
 `;
