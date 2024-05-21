@@ -1,3 +1,4 @@
+import { Heart } from "./heart";
 import {
   Pin0,
   Pin1,
@@ -52,4 +53,5 @@ export const Icons = {
   Tag9,
   Tag10,
   Tag11,
+  Heart,
 };
