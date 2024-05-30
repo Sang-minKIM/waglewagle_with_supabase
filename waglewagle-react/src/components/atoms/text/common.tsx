@@ -15,7 +15,4 @@ const Wrapper = styled.span<{ color: string; font: string }>`
   font-weight: ${({ theme, font }) => theme.typography[font as keyof typeof theme.typography].fontWeight};
   line-height: ${({ theme, font }) => theme.typography[font as keyof typeof theme.typography].lineHeight};
   color: ${({ theme, color }) => theme.colors[color as keyof typeof theme.colors]};
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;
