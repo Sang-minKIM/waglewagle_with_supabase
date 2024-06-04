@@ -1,3 +1,6 @@
+import { Heart } from "./heart";
+import { Pen } from "./pen";
+import { SpeechBubble } from "./speech-bubble";
 import {
   Pin0,
   Pin1,
@@ -52,4 +55,7 @@ export const Icons = {
   Tag9,
   Tag10,
   Tag11,
+  Heart,
+  Pen,
+  SpeechBubble,
 };

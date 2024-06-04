@@ -1,6 +1,5 @@
 import { Theme } from "@emotion/react";
 
-// theme.js
 export const theme: Theme = {
   colors: {
     green500: "#00dfa9",
@@ -91,3 +90,5 @@ export const theme: Theme = {
 };
 
 export default theme;
+
+///
