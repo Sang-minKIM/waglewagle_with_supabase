@@ -1,22 +1,9 @@
 import styled from "@emotion/styled";
 
 import { Post } from "./post";
+import { PostListDataProps } from "./post.types";
 
-interface PostDataProps {
-  id: number;
-  avatarId?: string;
-  name: string;
-  createdTime: string;
-  like: number;
-  imageUrl?: string;
-  content: string;
-  tagId: number;
-  tag: {
-    nickname: string;
-  };
-}
-
-export const PostList = ({ postList }: { postList: PostDataProps[] }) => {
+export const PostList = ({ postList }: { postList: PostListDataProps[] }) => {
   // TODO: createTime 형식 맞추기
   return (
     <Container>
