@@ -23,7 +23,9 @@ export const globalStyle = css`
     }
     html,
     body {
-        height: 100%;
+        height: 100dvh;
+        background-color: #11141a;
+        color: #e2e6ef;
     }
     img,
     picture,
