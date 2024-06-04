@@ -32,8 +32,8 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  span:last-child,
-  span:first-child {
+  button:last-child,
+  button:first-child {
     flex-basis: min-content;
     width: max-content;
     flex-grow: 1;
