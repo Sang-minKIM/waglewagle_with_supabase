@@ -1,8 +1,8 @@
 import React from "react";
 
-import { ThemeProvider } from "@emotion/react";
 import type { Preview } from "@storybook/react";
 
+import { ProviderList } from "../src/providers";
 import { theme } from "../src/style";
 
 const preview: Preview = {
@@ -18,9 +18,11 @@ const preview: Preview = {
 
 export const decorators: Array<(Story: React.ComponentType) => JSX.Element> = [
   (Story: React.ComponentType) => (
-    <ThemeProvider theme={theme}>
-      <Story />
-    </ThemeProvider>
+    <>
+      <ProviderList>
+        <Story />
+      </ProviderList>
+    </>
   ),
 ];
 
