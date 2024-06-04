@@ -2,7 +2,7 @@ import { StationNav } from "./station-nav";
 import { StationNavProps } from "./station-nav.types";
 
 export default {
-  title: "molecules/StationNav",
+  title: "organisms/StationNav",
   component: StationNav,
   tags: ["autodocs"],
 };

@@ -2,7 +2,7 @@ import { Post } from "./post";
 import { PostProps } from "./post.types";
 
 export default {
-  title: "molecules/Post",
+  title: "organisms/Post",
   component: Post,
   tags: ["autodocs"],
 };
