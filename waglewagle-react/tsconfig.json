@@ -25,8 +25,8 @@
 
     "paths": {
       "~/atoms/*": ["src/components/atoms/*"],
-      "~/molecures/*": ["src/components/molecules/*"],
-      "~/organics/*": ["src/components/organisms/*"],
+      "~/molecules/*": ["src/components/molecules/*"],
+      "~/organisms/*": ["src/components/organisms/*"],
       "~/templates/*": ["src/components/templates/*"],
       "~/pages/*": ["src/pages/*"],
       "~/style/*": ["src/style/*"],

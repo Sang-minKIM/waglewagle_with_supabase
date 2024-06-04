@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { TransparentBtn } from "~/atoms/buttons";
 import { Text } from "~/atoms/text";
 
-import { StationNameBoard } from "~/molecures/station-name-board";
+import { StationNameBoard } from "~/molecules/station-name-board";
 
 import { StationNavProps } from "./station-nav.types";
 

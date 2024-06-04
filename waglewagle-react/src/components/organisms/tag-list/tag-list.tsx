@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-import { Tag } from "~/molecures/tag";
+import { Tag } from "~/molecules/tag";
 
 import { TagListModel } from "./tag-list.model";
 

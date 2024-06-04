@@ -3,8 +3,8 @@ import styled from "@emotion/styled";
 import { LikeBtn, TransparentBtn } from "~/atoms/buttons";
 import { Text } from "~/atoms/text";
 
-import { ImgContent, TextContent } from "~/molecures/post-contents";
-import { Profile } from "~/molecures/profile";
+import { ImgContent, TextContent } from "~/molecules/post-contents";
+import { Profile } from "~/molecules/profile";
 
 import { PostProps } from "./post.types";
 
