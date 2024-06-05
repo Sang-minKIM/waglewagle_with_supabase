@@ -34,14 +34,14 @@ export const Tag1 = ({ width = "60", height = "60" }) => {
       />
       <rect x="2" y="34.0962" width="56.1134" height="16.4673" transform="rotate(-2.63 2 34.0962)" fill="#737C94" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M42.6888 17.3456C41.9589 17.2996 41.2726 17.3238 40.6484 17.4605L40.6471 17.4608C38.4697 17.935 36.8217 19.3318 36.2303 21.0883C36.0352 21.6677 35.4074 21.9792 34.828 21.7841C34.2486 21.589 33.9371 20.9612 34.1321 20.3818C35.0129 17.766 37.3719 15.9084 40.1755 15.2977C41.0676 15.1024 41.975 15.0823 42.8279 15.136C43.438 15.1744 43.9015 15.7002 43.8631 16.3103C43.8247 16.9205 43.299 17.384 42.6888 17.3456Z"
         fill="#574B42"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M17.6217 15.136C18.4746 15.0823 19.382 15.1024 20.2742 15.2977C23.0778 15.9085 25.4367 17.766 26.3174 20.3818C26.5125 20.9612 26.201 21.589 25.6216 21.7841C25.0422 21.9792 24.4143 21.6677 24.2193 21.0883C23.6278 19.3318 21.9799 17.935 19.8024 17.4608L19.8012 17.4605C19.177 17.3238 18.4906 17.2996 17.7608 17.3456C17.1506 17.384 16.6249 16.9205 16.5865 16.3103C16.5481 15.7002 17.0115 15.1744 17.6217 15.136Z"
         fill="#574B42"
       />
@@ -82,8 +82,8 @@ export const Tag1 = ({ width = "60", height = "60" }) => {
           y2="50.7926"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12333"
@@ -93,8 +93,8 @@ export const Tag1 = ({ width = "60", height = "60" }) => {
           y2="32.4226"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF4545" />
-          <stop offset="1" stop-color="#FF4545" stop-opacity="0" />
+          <stop stopColor="#FF4545" />
+          <stop offset="1" stopColor="#FF4545" stopOpacity="0" />
         </linearGradient>
       </defs>
     </Template>
@@ -103,22 +103,22 @@ export const Tag1 = ({ width = "60", height = "60" }) => {
 export const Tag2 = ({ width = "60", height = "60" }) => {
   return (
     <Template width={width} height={height}>
-      <g clip-path="url(#clip0_387_12334)">
+      <g clipPath="url(#clip0_387_12334)">
         <path
           d="M30.1727 56.9997C44.0367 56.9997 55.2756 45.7608 55.2756 31.8968C55.2756 18.0329 44.0367 6.79395 30.1727 6.79395C16.3088 6.79395 5.06982 18.0329 5.06982 31.8968C5.06982 45.7608 16.3088 56.9997 30.1727 56.9997Z"
           fill="url(#paint0_linear_387_12334)"
         />
-        <ellipse cx="16.8801" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fill-opacity="0.7" />
-        <ellipse cx="43.0229" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fill-opacity="0.7" />
+        <ellipse cx="16.8801" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fillOpacity="0.7" />
+        <ellipse cx="43.0229" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fillOpacity="0.7" />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M19.8229 22.2329C19.0537 21.8405 18.1117 22.1544 17.7193 22.9394C17.3268 23.7086 17.6408 24.6505 18.4257 25.043L21.8951 26.7856L18.4257 28.5282C17.6565 28.9206 17.3425 29.8626 17.7193 30.6318C18.1117 31.401 19.0537 31.715 19.8229 31.3382L26.1024 28.1985C26.6362 27.9316 26.9659 27.3821 26.9659 26.8013C26.9659 26.2204 26.6362 25.6553 26.1024 25.4041L19.8229 22.2643V22.2329ZM40.3883 22.2329C41.1576 21.8405 42.0995 22.1544 42.492 22.9394C42.8845 23.7086 42.5705 24.6505 41.7855 25.043L38.3161 26.7856L41.7855 28.5282C42.5548 28.9206 42.8688 29.8626 42.492 30.6318C42.0995 31.401 41.1576 31.715 40.3883 31.3382L34.1088 28.1985C33.5751 27.9316 33.2454 27.3821 33.2454 26.8013C33.2454 26.2204 33.5751 25.6553 34.1088 25.4041L40.3883 22.2643V22.2329Z"
           fill="#4D4947"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M16.1655 36.9739C16.7464 40.4433 18.5988 43.4889 21.2205 45.6239C23.6538 47.5863 26.7308 48.7637 30.1061 48.7637C33.4813 48.7637 36.5583 47.5863 38.9916 45.6239C41.6133 43.5046 43.4657 40.459 44.0466 36.9739C44.2664 35.6866 43.1832 34.6348 41.8802 34.6348H18.3319C17.0289 34.6348 15.9614 35.7023 16.1655 36.9739Z"
           fill="#5D4D41"
         />
@@ -152,8 +152,8 @@ export const Tag2 = ({ width = "60", height = "60" }) => {
           height="15"
         >
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M16.1655 36.9739C16.7464 40.4433 18.5988 43.4889 21.2205 45.6239C23.6538 47.5863 26.7308 48.7637 30.1061 48.7637C33.4813 48.7637 36.5583 47.5863 38.9916 45.6239C41.6133 43.5046 43.4657 40.459 44.0466 36.9739C44.2664 35.6866 43.1832 34.6348 41.8802 34.6348H18.3319C17.0289 34.6348 15.9614 35.7023 16.1655 36.9739Z"
             fill="#5D4D41"
           />
@@ -171,8 +171,8 @@ export const Tag2 = ({ width = "60", height = "60" }) => {
           y2="56.9997"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <clipPath id="clip0_387_12334">
           <rect width="60" height="60" fill="white" />
@@ -195,12 +195,12 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
       <path
         d="M13.8583 37.1768C15.7537 37.1768 17.2903 34.872 17.2903 32.0288C17.2903 29.1857 15.7537 26.8809 13.8583 26.8809C11.9628 26.8809 10.4263 29.1857 10.4263 32.0288C10.4263 34.872 11.9628 37.1768 13.8583 37.1768Z"
         fill="#8284B9"
-        fill-opacity="0.7"
+        fillOpacity="0.7"
       />
       <path
         d="M35.5943 37.1768C37.4898 37.1768 39.0263 34.872 39.0263 32.0288C39.0263 29.1857 37.4898 26.8809 35.5943 26.8809C33.6989 26.8809 32.1624 29.1857 32.1624 32.0288C32.1624 34.872 33.6989 37.1768 35.5943 37.1768Z"
         fill="#8284B9"
-        fill-opacity="0.7"
+        fillOpacity="0.7"
       />
       <path
         d="M13.8338 32.36C15.9222 32.36 17.6151 30.6671 17.6151 28.5787C17.6151 26.4903 15.9222 24.7974 13.8338 24.7974C11.7454 24.7974 10.0525 26.4903 10.0525 28.5787C10.0525 30.6671 11.7454 32.36 13.8338 32.36Z"
@@ -217,7 +217,7 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
       <path
         d="M38.4849 40.9068L41.721 37.3472L46.4849 43.8975C44.6188 43.8975 42.8701 44.808 41.8 46.3367L40.0406 48.8502C39.6009 49.4783 38.8824 49.8524 38.1157 49.8524H37.6791C36.6226 49.8524 35.7661 48.9959 35.7661 47.9394C35.7661 45.3386 36.7355 42.8312 38.4849 40.9068Z"
         fill="url(#paint2_linear_387_12335)"
-        fill-opacity="0.8"
+        fillOpacity="0.8"
       />
       <defs>
         <linearGradient
@@ -228,8 +228,8 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
           y2="42.1967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#ABE3D7" />
-          <stop offset="1" stop-color="#D2FDF4" stop-opacity="0" />
+          <stop stopColor="#ABE3D7" />
+          <stop offset="1" stopColor="#D2FDF4" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12335"
@@ -239,8 +239,8 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
           y2="59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E7EFEE" />
-          <stop offset="1" stop-color="#CDFFF4" />
+          <stop stopColor="#E7EFEE" />
+          <stop offset="1" stopColor="#CDFFF4" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12335"
@@ -250,8 +250,8 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
           y2="39.7291"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#AADFD4" />
-          <stop offset="1" stop-color="#D2FDF4" stop-opacity="0" />
+          <stop stopColor="#AADFD4" />
+          <stop offset="1" stopColor="#D2FDF4" stopOpacity="0" />
         </linearGradient>
       </defs>
     </Template>
@@ -260,7 +260,7 @@ export const Tag3 = ({ width = "60", height = "60" }) => {
 export const Tag4 = ({ width = "60", height = "60" }) => {
   return (
     <Template width={width} height={height}>
-      <g clip-path="url(#clip0_387_12336)">
+      <g clipPath="url(#clip0_387_12336)">
         <path
           d="M30 55.5C43.8071 55.5 55 44.3071 55 30.5C55 16.6929 43.8071 5.5 30 5.5C16.1929 5.5 5 16.6929 5 30.5C5 44.3071 16.1929 55.5 30 55.5Z"
           fill="url(#paint0_linear_387_12336)"
@@ -312,8 +312,8 @@ export const Tag4 = ({ width = "60", height = "60" }) => {
           y2="42.2647"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.085" stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop offset="0.085" stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12336"
@@ -323,8 +323,8 @@ export const Tag4 = ({ width = "60", height = "60" }) => {
           y2="53.9612"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8FDDFF" />
-          <stop offset="1" stop-color="#4685FF" />
+          <stop stopColor="#8FDDFF" />
+          <stop offset="1" stopColor="#4685FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12336"
@@ -334,8 +334,8 @@ export const Tag4 = ({ width = "60", height = "60" }) => {
           y2="53.9612"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8FDDFF" />
-          <stop offset="1" stop-color="#4685FF" />
+          <stop stopColor="#8FDDFF" />
+          <stop offset="1" stopColor="#4685FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_12336"
@@ -345,8 +345,8 @@ export const Tag4 = ({ width = "60", height = "60" }) => {
           y2="39.0501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4D4947" />
-          <stop offset="1" stop-color="#785F52" />
+          <stop stopColor="#4D4947" />
+          <stop offset="1" stopColor="#785F52" />
         </linearGradient>
         <clipPath id="clip0_387_12336">
           <rect width="50" height="50" fill="white" transform="translate(5 5.5)" />
@@ -358,7 +358,7 @@ export const Tag4 = ({ width = "60", height = "60" }) => {
 export const Tag5 = ({ width = "60", height = "60" }) => {
   return (
     <Template width={width} height={height}>
-      <g clip-path="url(#clip0_387_12337)">
+      <g clipPath="url(#clip0_387_12337)">
         <path
           d="M30.2058 54.8833C43.8986 54.8833 54.9987 43.7831 54.9987 30.0903C54.9987 16.3975 43.8986 5.29736 30.2058 5.29736C16.513 5.29736 5.41284 16.3975 5.41284 30.0903C5.41284 43.7831 16.513 54.8833 30.2058 54.8833Z"
           fill="url(#paint0_linear_387_12337)"
@@ -405,8 +405,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="54.8833"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12337"
@@ -416,8 +416,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="23.5986"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.270678" stop-color="#4E91F2" />
-          <stop offset="1" stop-color="#4E91F2" stop-opacity="0" />
+          <stop offset="0.270678" stopColor="#4E91F2" />
+          <stop offset="1" stopColor="#4E91F2" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12337"
@@ -427,8 +427,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="31.2717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#E7E7E7" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#E7E7E7" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_12337"
@@ -438,8 +438,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="31.2717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#E7E7E7" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#E7E7E7" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_387_12337"
@@ -449,8 +449,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="58.4762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA800" />
-          <stop offset="1" stop-color="#FF7A00" />
+          <stop stopColor="#FFA800" />
+          <stop offset="1" stopColor="#FF7A00" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_387_12337"
@@ -460,8 +460,8 @@ export const Tag5 = ({ width = "60", height = "60" }) => {
           y2="58.4762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA800" />
-          <stop offset="1" stop-color="#FF7A00" />
+          <stop stopColor="#FFA800" />
+          <stop offset="1" stopColor="#FF7A00" />
         </linearGradient>
         <clipPath id="clip0_387_12337">
           <rect width="51.5852" height="53.405" fill="white" transform="translate(4.41479 5.29736)" />
@@ -482,8 +482,8 @@ export const Tag6 = ({ width = "60", height = "60" }) => {
         fill="url(#paint1_linear_387_12338)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M29.9161 53.4349C41.2366 53.4349 50.4136 44.2578 50.4136 32.9373C50.4136 21.6168 41.2366 12.4398 29.9161 12.4398C18.5956 12.4398 9.41854 21.6168 9.41854 32.9373C9.41854 44.2578 18.5956 53.4349 29.9161 53.4349ZM29.9161 57.7501C43.6198 57.7501 54.7289 46.6411 54.7289 32.9373C54.7289 19.2336 43.6198 8.12451 29.9161 8.12451C16.2123 8.12451 5.10327 19.2336 5.10327 32.9373C5.10327 46.6411 16.2123 57.7501 29.9161 57.7501Z"
         fill="url(#paint2_linear_387_12338)"
       />
@@ -500,8 +500,8 @@ export const Tag6 = ({ width = "60", height = "60" }) => {
           y2="18.5754"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E53" />
-          <stop offset="1" stop-color="#F24A3F" />
+          <stop stopColor="#FF5E53" />
+          <stop offset="1" stopColor="#F24A3F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12338"
@@ -511,8 +511,8 @@ export const Tag6 = ({ width = "60", height = "60" }) => {
           y2="48.5802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.256752" stop-color="white" />
-          <stop offset="1" stop-color="#EAEAEA" />
+          <stop offset="0.256752" stopColor="white" />
+          <stop offset="1" stopColor="#EAEAEA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12338"
@@ -522,8 +522,8 @@ export const Tag6 = ({ width = "60", height = "60" }) => {
           y2="57.7501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E53" />
-          <stop offset="1" stop-color="#F24A3F" />
+          <stop stopColor="#FF5E53" />
+          <stop offset="1" stopColor="#F24A3F" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_12338"
@@ -533,8 +533,8 @@ export const Tag6 = ({ width = "60", height = "60" }) => {
           y2="48.0407"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFD600" />
-          <stop offset="0.623942" stop-color="#FFB800" />
+          <stop stopColor="#FFD600" />
+          <stop offset="0.623942" stopColor="#FFB800" />
         </linearGradient>
       </defs>
     </Template>
@@ -544,8 +544,8 @@ export const Tag7 = ({ width = "60", height = "60" }) => {
   return (
     <Template width={width} height={height}>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M11.9134 17.0998C11.9134 13.3659 20.2043 10.333 30.4319 10.333C40.6594 10.333 48.9504 13.3585 48.9504 17.0998V50.2328C48.9504 53.9667 40.6594 56.9996 30.4319 56.9996C20.2043 56.9996 11.9134 53.9741 11.9134 50.2328V47.3697H10.7149C7.70364 47.3697 5.24683 44.8137 5.24683 41.6744V26.3984C5.24683 23.2591 7.69511 20.7031 10.7149 20.7031H11.9134V17.0998ZM11.9134 24.9317H9.92159C9.23061 24.9317 8.66759 25.5921 8.66759 26.3984V41.6744C8.66759 42.4807 9.23061 43.1411 9.92159 43.1411H11.9134V24.9317Z"
         fill="url(#paint0_linear_387_12339)"
       />
@@ -568,8 +568,8 @@ export const Tag7 = ({ width = "60", height = "60" }) => {
           y2="54.196"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEF8FF" />
-          <stop offset="0.88034" stop-color="#CDE4F3" />
+          <stop stopColor="#EEF8FF" />
+          <stop offset="0.88034" stopColor="#CDE4F3" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12339"
@@ -579,8 +579,8 @@ export const Tag7 = ({ width = "60", height = "60" }) => {
           y2="53.2961"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.03" stop-color="#FFD366" />
-          <stop offset="0.96" stop-color="#FFB31F" />
+          <stop offset="0.03" stopColor="#FFD366" />
+          <stop offset="0.96" stopColor="#FFB31F" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12339"
@@ -590,8 +590,8 @@ export const Tag7 = ({ width = "60", height = "60" }) => {
           y2="37.6521"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#FFF6D8" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#FFF6D8" />
         </linearGradient>
       </defs>
     </Template>
@@ -641,8 +641,8 @@ export const Tag8 = ({ width = "60", height = "60" }) => {
           y2="53.7312"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.427403" stop-color="#FFBAB7" />
-          <stop offset="1" stop-color="#FF908A" />
+          <stop offset="0.427403" stopColor="#FFBAB7" />
+          <stop offset="1" stopColor="#FF908A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12340"
@@ -652,8 +652,8 @@ export const Tag8 = ({ width = "60", height = "60" }) => {
           y2="44.4491"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF9A96" />
-          <stop offset="1" stop-color="#FF7871" />
+          <stop stopColor="#FF9A96" />
+          <stop offset="1" stopColor="#FF7871" />
         </linearGradient>
       </defs>
     </Template>
@@ -662,10 +662,10 @@ export const Tag8 = ({ width = "60", height = "60" }) => {
 export const Tag9 = ({ width = "60", height = "60" }) => {
   return (
     <Template width={width} height={height}>
-      <g clip-path="url(#clip0_387_12341)">
+      <g clipPath="url(#clip0_387_12341)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M53.3692 7.04597C54.5609 8.45769 55.5839 10.0485 56.2905 11.8079H56.2694C58.7899 18.0448 57.6826 25.0507 53.8121 29.9391C52.6732 31.0137 50.9647 29.7916 51.3971 28.2218L51.4815 27.9163C51.7662 25.0402 51.2811 22.143 50.0683 19.5724C49.3828 18.1291 48.4231 16.8964 47.263 15.9167L40.4029 40.615C40.389 40.6676 40.3749 40.72 40.3605 40.7724C40.2775 41.1432 40.1839 41.5041 40.0601 41.865V41.8755C39.7169 42.8986 39.2622 43.8757 38.7092 44.7942C35.6272 50.2877 29.7471 54 23 54C13.0589 54 5 45.9411 5 36C5 26.0589 13.0589 18 23 18C30.2919 18 36.571 22.3359 39.3999 28.5702L47.59 4.24359C47.9169 3.25328 48.9188 2.75812 49.8152 3.11632C50.0683 3.22167 50.3003 3.39023 50.4901 3.61147L53.3692 7.04597Z"
           fill="url(#paint0_linear_387_12341)"
         />
@@ -676,9 +676,9 @@ export const Tag9 = ({ width = "60", height = "60" }) => {
           ry="5.38998"
           transform="rotate(23.4724 14.9287 28.4468)"
           fill="white"
-          fill-opacity="0.5"
+          fillOpacity="0.5"
         />
-        <circle cx="10.617" cy="36.532" r="1.617" fill="white" fill-opacity="0.5" />
+        <circle cx="10.617" cy="36.532" r="1.617" fill="white" fillOpacity="0.5" />
         <path
           d="M32.1656 0.866675C31.9316 0.304374 31.1064 0.404078 31.013 1.00594L30.9508 1.40705C30.4724 4.49057 28.7154 7.22922 26.112 8.94944C25.7292 9.20241 25.7994 9.78389 26.2315 9.93839C29.1697 10.989 31.5284 13.2303 32.7275 16.1112L32.8835 16.4859C33.1175 17.0482 33.9427 16.9485 34.0361 16.3467L34.0983 15.9456C34.5767 12.862 36.3337 10.1234 38.9371 8.40316C39.32 8.15019 39.2497 7.56871 38.8176 7.41421C35.8794 6.3636 33.5207 4.12225 32.3216 1.24142L32.1656 0.866675Z"
           fill="url(#paint1_linear_387_12341)"
@@ -690,8 +690,8 @@ export const Tag9 = ({ width = "60", height = "60" }) => {
       </g>
       <defs>
         <linearGradient id="paint0_linear_387_12341" x1="40" y1="5.5" x2="24.5" y2="44" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#B3FF53" />
-          <stop offset="1" stop-color="#DDFF57" />
+          <stop stopColor="#B3FF53" />
+          <stop offset="1" stopColor="#DDFF57" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12341"
@@ -701,8 +701,8 @@ export const Tag9 = ({ width = "60", height = "60" }) => {
           y2="18.4653"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEFFD7" />
-          <stop offset="1" stop-color="#C1FF6E" />
+          <stop stopColor="#EEFFD7" />
+          <stop offset="1" stopColor="#C1FF6E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_12341"
@@ -712,8 +712,8 @@ export const Tag9 = ({ width = "60", height = "60" }) => {
           y2="10.9006"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEFFD7" />
-          <stop offset="1" stop-color="#C1FF6E" />
+          <stop stopColor="#EEFFD7" />
+          <stop offset="1" stopColor="#C1FF6E" />
         </linearGradient>
         <clipPath id="clip0_387_12341">
           <rect width="60" height="60" fill="white" />
@@ -762,16 +762,16 @@ export const Tag10 = ({ width = "60", height = "60" }) => {
           y2="14.7426"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient id="paint1_linear_387_12342" x1="54.5" y1="28" x2="54.5" y2="37" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient id="paint2_linear_387_12342" x1="7.5" y1="16" x2="7.5" y2="22" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_12342"
@@ -781,8 +781,8 @@ export const Tag10 = ({ width = "60", height = "60" }) => {
           y2="19.2158"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_387_12342"
@@ -792,8 +792,8 @@ export const Tag10 = ({ width = "60", height = "60" }) => {
           y2="60.0034"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_387_12342"
@@ -803,8 +803,8 @@ export const Tag10 = ({ width = "60", height = "60" }) => {
           y2="51.1805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3DFFF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3DFFF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_387_12342"
@@ -814,8 +814,8 @@ export const Tag10 = ({ width = "60", height = "60" }) => {
           y2="57.1027"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3DFFF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3DFFF" />
         </linearGradient>
       </defs>
     </Template>
@@ -843,9 +843,9 @@ export const Tag11 = ({ width = "60", height = "60" }) => {
         ry="5.49571"
         transform="rotate(23.4724 20.2176 13.0903)"
         fill="#FF8B84"
-        fill-opacity="0.5"
+        fillOpacity="0.5"
       />
-      <circle cx="15.8216" cy="21.3343" r="1.64871" fill="#FF8B84" fill-opacity="0.5" />
+      <circle cx="15.8216" cy="21.3343" r="1.64871" fill="#FF8B84" fillOpacity="0.5" />
       <defs>
         <linearGradient
           id="paint0_linear_387_12343"
@@ -855,8 +855,8 @@ export const Tag11 = ({ width = "60", height = "60" }) => {
           y2="37.8948"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E48" />
-          <stop offset="1" stop-color="#FF2F2F" />
+          <stop stopColor="#FF5E48" />
+          <stop offset="1" stopColor="#FF2F2F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_12343"
@@ -866,8 +866,8 @@ export const Tag11 = ({ width = "60", height = "60" }) => {
           y2="46.8006"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CAECFF" />
-          <stop offset="1" stop-color="#ABD3E9" />
+          <stop stopColor="#CAECFF" />
+          <stop offset="1" stopColor="#ABD3E9" />
         </linearGradient>
       </defs>
     </Template>
