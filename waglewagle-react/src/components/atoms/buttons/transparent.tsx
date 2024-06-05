@@ -4,10 +4,20 @@ interface TransparentBtnProps {
   width?: string;
   height?: string;
   children?: React.ReactNode;
+  onClick: () => void;
 }
 
-export const TransparentBtn = ({ width = "max-content", height = "max-content", children }: TransparentBtnProps) => {
-  return <Btn width={width} height={height}>{children}</Btn>;
+export const TransparentBtn = ({
+  width = "max-content",
+  height = "max-content",
+  children,
+  onClick,
+}: TransparentBtnProps) => {
+  return (
+    <Btn width={width} height={height} onClick={onClick}>
+      {children}
+    </Btn>
+  );
 };
 
 const Btn = styled.button<{ width: string; height: string }>`

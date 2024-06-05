@@ -1,5 +1,5 @@
 export interface StationNavProps {
-  leftStation: string;
-  rightStation: string;
-  currentStation: string;
+  leftStationIdx: number;
+  rightStationIdx: number;
+  currentStationIdx: number;
 }

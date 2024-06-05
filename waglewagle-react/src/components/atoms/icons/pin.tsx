@@ -42,14 +42,14 @@ export const Pin1 = ({ width = "84", height = "84" }) => {
       />
       <rect x="14" y="34.0962" width="56.1134" height="16.4673" transform="rotate(-2.63 14 34.0962)" fill="#737C94" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M54.6888 17.3456C53.9589 17.2996 53.2726 17.3238 52.6484 17.4605L52.6471 17.4608C50.4697 17.935 48.8217 19.3318 48.2303 21.0883C48.0352 21.6677 47.4074 21.9792 46.828 21.7841C46.2486 21.589 45.9371 20.9612 46.1321 20.3818C47.0129 17.766 49.3719 15.9084 52.1755 15.2977C53.0676 15.1024 53.975 15.0823 54.8279 15.136C55.438 15.1744 55.9015 15.7002 55.8631 16.3103C55.8247 16.9205 55.299 17.384 54.6888 17.3456Z"
         fill="#574B42"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M29.6217 15.136C30.4746 15.0823 31.382 15.1024 32.2742 15.2977C35.0778 15.9085 37.4367 17.766 38.3174 20.3818C38.5125 20.9612 38.201 21.589 37.6216 21.7841C37.0422 21.9792 36.4143 21.6677 36.2193 21.0883C35.6278 19.3318 33.9799 17.935 31.8024 17.4608L31.8012 17.4605C31.177 17.3238 30.4906 17.2996 29.7608 17.3456C29.1506 17.384 28.6249 16.9205 28.5865 16.3103C28.5481 15.7002 29.0115 15.1744 29.6217 15.136Z"
         fill="#574B42"
       />
@@ -90,8 +90,8 @@ export const Pin1 = ({ width = "84", height = "84" }) => {
           y2="50.7926"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14455"
@@ -101,8 +101,8 @@ export const Pin1 = ({ width = "84", height = "84" }) => {
           y2="32.4226"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF4545" />
-          <stop offset="1" stop-color="#FF4545" stop-opacity="0" />
+          <stop stopColor="#FF4545" />
+          <stop offset="1" stopColor="#FF4545" stopOpacity="0" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -116,22 +116,22 @@ export const Pin2 = ({ width = "84", height = "84" }) => {
         d="M42 10C49.6913 10 57.0675 13.1653 62.5061 18.7996C67.9447 24.4338 71 32.0756 71 40.0436C71 52.739 62.3892 66.5745 45.3908 81.698C44.4456 82.5391 43.2405 83.0011 41.9944 83C40.7484 82.9989 39.5441 82.5347 38.6003 81.6918L37.476 80.6811C21.2301 65.952 13 52.4555 13 40.0436C13 32.0756 16.0553 24.4338 21.4939 18.7996C26.9325 13.1653 34.3087 10 42 10Z"
         fill="#2F2F2F"
       />
-      <g clip-path="url(#clip0_387_14493)">
+      <g clipPath="url(#clip0_387_14493)">
         <path
           d="M42.1727 56.9997C56.0367 56.9997 67.2756 45.7608 67.2756 31.8968C67.2756 18.0329 56.0367 6.79395 42.1727 6.79395C28.3088 6.79395 17.0698 18.0329 17.0698 31.8968C17.0698 45.7608 28.3088 56.9997 42.1727 56.9997Z"
           fill="url(#paint0_linear_387_14493)"
         />
-        <ellipse cx="28.8801" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fill-opacity="0.7" />
-        <ellipse cx="55.0229" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fill-opacity="0.7" />
+        <ellipse cx="28.8801" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fillOpacity="0.7" />
+        <ellipse cx="55.0229" cy="31.3415" rx="3.38889" ry="2.42063" fill="#FF5E53" fillOpacity="0.7" />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M31.8229 22.2329C31.0537 21.8405 30.1117 22.1544 29.7193 22.9394C29.3268 23.7086 29.6408 24.6505 30.4257 25.043L33.8951 26.7856L30.4257 28.5282C29.6565 28.9206 29.3425 29.8626 29.7193 30.6318C30.1117 31.401 31.0537 31.715 31.8229 31.3382L38.1024 28.1985C38.6362 27.9316 38.9659 27.3821 38.9659 26.8013C38.9659 26.2204 38.6362 25.6553 38.1024 25.4041L31.8229 22.2643V22.2329ZM52.3883 22.2329C53.1576 21.8405 54.0995 22.1544 54.492 22.9394C54.8845 23.7086 54.5705 24.6505 53.7855 25.043L50.3161 26.7856L53.7855 28.5282C54.5548 28.9206 54.8688 29.8626 54.492 30.6318C54.0995 31.401 53.1576 31.715 52.3883 31.3382L46.1088 28.1985C45.5751 27.9316 45.2454 27.3821 45.2454 26.8013C45.2454 26.2204 45.5751 25.6553 46.1088 25.4041L52.3883 22.2643V22.2329Z"
           fill="#4D4947"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M28.1655 36.9739C28.7464 40.4433 30.5988 43.4889 33.2205 45.6239C35.6538 47.5863 38.7308 48.7637 42.1061 48.7637C45.4813 48.7637 48.5583 47.5863 50.9916 45.6239C53.6133 43.5046 55.4657 40.459 56.0466 36.9739C56.2664 35.6866 55.1832 34.6348 53.8802 34.6348H30.3319C29.0289 34.6348 27.9614 35.7023 28.1655 36.9739Z"
           fill="#5D4D41"
         />
@@ -165,8 +165,8 @@ export const Pin2 = ({ width = "84", height = "84" }) => {
           height="15"
         >
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M28.1655 36.9739C28.7464 40.4433 30.5988 43.4889 33.2205 45.6239C35.6538 47.5863 38.7308 48.7637 42.1061 48.7637C45.4813 48.7637 48.5583 47.5863 50.9916 45.6239C53.6133 43.5046 55.4657 40.459 56.0466 36.9739C56.2664 35.6866 55.1832 34.6348 53.8802 34.6348H30.3319C29.0289 34.6348 27.9614 35.7023 28.1655 36.9739Z"
             fill="#5D4D41"
           />
@@ -184,8 +184,8 @@ export const Pin2 = ({ width = "84", height = "84" }) => {
           y2="56.9997"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <clipPath id="clip0_387_14493">
           <rect width="60" height="60" fill="white" transform="translate(12)" />
@@ -213,12 +213,12 @@ export const Pin3 = ({ width = "84", height = "84" }) => {
       <path
         d="M25.8583 37.1768C27.7537 37.1768 29.2903 34.872 29.2903 32.0288C29.2903 29.1857 27.7537 26.8809 25.8583 26.8809C23.9628 26.8809 22.4263 29.1857 22.4263 32.0288C22.4263 34.872 23.9628 37.1768 25.8583 37.1768Z"
         fill="#8284B9"
-        fill-opacity="0.7"
+        fillOpacity="0.7"
       />
       <path
         d="M47.5943 37.1768C49.4898 37.1768 51.0263 34.872 51.0263 32.0288C51.0263 29.1857 49.4898 26.8809 47.5943 26.8809C45.6989 26.8809 44.1624 29.1857 44.1624 32.0288C44.1624 34.872 45.6989 37.1768 47.5943 37.1768Z"
         fill="#8284B9"
-        fill-opacity="0.7"
+        fillOpacity="0.7"
       />
       <path
         d="M25.8338 32.36C27.9222 32.36 29.6151 30.6671 29.6151 28.5787C29.6151 26.4903 27.9222 24.7974 25.8338 24.7974C23.7454 24.7974 22.0525 26.4903 22.0525 28.5787C22.0525 30.6671 23.7454 32.36 25.8338 32.36Z"
@@ -235,7 +235,7 @@ export const Pin3 = ({ width = "84", height = "84" }) => {
       <path
         d="M50.4849 40.9068L53.721 37.3472L58.4849 43.8975C56.6188 43.8975 54.8701 44.808 53.8 46.3367L52.0406 48.8502C51.6009 49.4783 50.8824 49.8524 50.1157 49.8524H49.6791C48.6226 49.8524 47.7661 48.9959 47.7661 47.9394C47.7661 45.3386 48.7355 42.8312 50.4849 40.9068Z"
         fill="url(#paint2_linear_387_14662)"
-        fill-opacity="0.8"
+        fillOpacity="0.8"
       />
       <defs>
         <linearGradient
@@ -246,8 +246,8 @@ export const Pin3 = ({ width = "84", height = "84" }) => {
           y2="42.1967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#ABE3D7" />
-          <stop offset="1" stop-color="#D2FDF4" stop-opacity="0" />
+          <stop stopColor="#ABE3D7" />
+          <stop offset="1" stopColor="#D2FDF4" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14662"
@@ -257,8 +257,8 @@ export const Pin3 = ({ width = "84", height = "84" }) => {
           y2="59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E7EFEE" />
-          <stop offset="1" stop-color="#CDFFF4" />
+          <stop stopColor="#E7EFEE" />
+          <stop offset="1" stopColor="#CDFFF4" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14662"
@@ -268,8 +268,8 @@ export const Pin3 = ({ width = "84", height = "84" }) => {
           y2="39.7291"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#AADFD4" />
-          <stop offset="1" stop-color="#D2FDF4" stop-opacity="0" />
+          <stop stopColor="#AADFD4" />
+          <stop offset="1" stopColor="#D2FDF4" stopOpacity="0" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -283,7 +283,7 @@ export const Pin4 = ({ width = "84", height = "84" }) => {
         d="M42 10C49.6913 10 57.0675 13.1653 62.5061 18.7996C67.9447 24.4338 71 32.0756 71 40.0436C71 52.739 62.3892 66.5745 45.3908 81.698C44.4456 82.5391 43.2405 83.0011 41.9944 83C40.7484 82.9989 39.5441 82.5347 38.6003 81.6918L37.476 80.6811C21.2301 65.952 13 52.4555 13 40.0436C13 32.0756 16.0553 24.4338 21.4939 18.7996C26.9325 13.1653 34.3087 10 42 10Z"
         fill="#2F2F2F"
       />
-      <g clip-path="url(#clip0_387_14663)">
+      <g clipPath="url(#clip0_387_14663)">
         <path
           d="M42 55.5C55.8071 55.5 67 44.3071 67 30.5C67 16.6929 55.8071 5.5 42 5.5C28.1929 5.5 17 16.6929 17 30.5C17 44.3071 28.1929 55.5 42 55.5Z"
           fill="url(#paint0_linear_387_14663)"
@@ -335,8 +335,8 @@ export const Pin4 = ({ width = "84", height = "84" }) => {
           y2="42.2647"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.085" stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop offset="0.085" stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14663"
@@ -346,8 +346,8 @@ export const Pin4 = ({ width = "84", height = "84" }) => {
           y2="53.9612"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8FDDFF" />
-          <stop offset="1" stop-color="#4685FF" />
+          <stop stopColor="#8FDDFF" />
+          <stop offset="1" stopColor="#4685FF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14663"
@@ -357,8 +357,8 @@ export const Pin4 = ({ width = "84", height = "84" }) => {
           y2="53.9612"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8FDDFF" />
-          <stop offset="1" stop-color="#4685FF" />
+          <stop stopColor="#8FDDFF" />
+          <stop offset="1" stopColor="#4685FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_14663"
@@ -368,8 +368,8 @@ export const Pin4 = ({ width = "84", height = "84" }) => {
           y2="39.0501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4D4947" />
-          <stop offset="1" stop-color="#785F52" />
+          <stop stopColor="#4D4947" />
+          <stop offset="1" stopColor="#785F52" />
         </linearGradient>
         <clipPath id="clip0_387_14663">
           <rect width="50" height="50" fill="white" transform="translate(17 5.5)" />
@@ -386,7 +386,7 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
         d="M42 10C49.6913 10 57.0675 13.1653 62.5061 18.7996C67.9447 24.4338 71 32.0756 71 40.0436C71 52.739 62.3892 66.5745 45.3908 81.698C44.4456 82.5391 43.2405 83.0011 41.9944 83C40.7484 82.9989 39.5441 82.5347 38.6003 81.6918L37.476 80.6811C21.2301 65.952 13 52.4555 13 40.0436C13 32.0756 16.0553 24.4338 21.4939 18.7996C26.9325 13.1653 34.3087 10 42 10Z"
         fill="#2F2F2F"
       />
-      <g clip-path="url(#clip0_387_14664)">
+      <g clipPath="url(#clip0_387_14664)">
         <path
           d="M42.2058 54.8833C55.8986 54.8833 66.9987 43.7831 66.9987 30.0903C66.9987 16.3975 55.8986 5.29736 42.2058 5.29736C28.513 5.29736 17.4128 16.3975 17.4128 30.0903C17.4128 43.7831 28.513 54.8833 42.2058 54.8833Z"
           fill="url(#paint0_linear_387_14664)"
@@ -433,8 +433,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="54.8833"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFDA16" />
-          <stop offset="1" stop-color="#FFAD0E" />
+          <stop stopColor="#FFDA16" />
+          <stop offset="1" stopColor="#FFAD0E" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14664"
@@ -444,8 +444,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="23.5986"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.270678" stop-color="#4E91F2" />
-          <stop offset="1" stop-color="#4E91F2" stop-opacity="0" />
+          <stop offset="0.270678" stopColor="#4E91F2" />
+          <stop offset="1" stopColor="#4E91F2" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14664"
@@ -455,8 +455,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="31.2717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#E7E7E7" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#E7E7E7" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_14664"
@@ -466,8 +466,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="31.2717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#E7E7E7" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#E7E7E7" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_387_14664"
@@ -477,8 +477,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="58.4762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA800" />
-          <stop offset="1" stop-color="#FF7A00" />
+          <stop stopColor="#FFA800" />
+          <stop offset="1" stopColor="#FF7A00" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_387_14664"
@@ -488,8 +488,8 @@ export const Pin5 = ({ width = "84", height = "84" }) => {
           y2="58.4762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA800" />
-          <stop offset="1" stop-color="#FF7A00" />
+          <stop stopColor="#FFA800" />
+          <stop offset="1" stopColor="#FF7A00" />
         </linearGradient>
         <clipPath id="clip0_387_14664">
           <rect width="51.5852" height="53.405" fill="white" transform="translate(16.4148 5.29736)" />
@@ -515,8 +515,8 @@ export const Pin6 = ({ width = "84", height = "84" }) => {
         fill="url(#paint1_linear_387_14665)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M41.9161 53.4349C53.2366 53.4349 62.4136 44.2578 62.4136 32.9373C62.4136 21.6168 53.2366 12.4398 41.9161 12.4398C30.5956 12.4398 21.4185 21.6168 21.4185 32.9373C21.4185 44.2578 30.5956 53.4349 41.9161 53.4349ZM41.9161 57.7501C55.6198 57.7501 66.7289 46.6411 66.7289 32.9373C66.7289 19.2336 55.6198 8.12451 41.9161 8.12451C28.2123 8.12451 17.1033 19.2336 17.1033 32.9373C17.1033 46.6411 28.2123 57.7501 41.9161 57.7501Z"
         fill="url(#paint2_linear_387_14665)"
       />
@@ -533,8 +533,8 @@ export const Pin6 = ({ width = "84", height = "84" }) => {
           y2="18.5754"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E53" />
-          <stop offset="1" stop-color="#F24A3F" />
+          <stop stopColor="#FF5E53" />
+          <stop offset="1" stopColor="#F24A3F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14665"
@@ -544,8 +544,8 @@ export const Pin6 = ({ width = "84", height = "84" }) => {
           y2="48.5802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.256752" stop-color="white" />
-          <stop offset="1" stop-color="#EAEAEA" />
+          <stop offset="0.256752" stopColor="white" />
+          <stop offset="1" stopColor="#EAEAEA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14665"
@@ -555,8 +555,8 @@ export const Pin6 = ({ width = "84", height = "84" }) => {
           y2="57.7501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E53" />
-          <stop offset="1" stop-color="#F24A3F" />
+          <stop stopColor="#FF5E53" />
+          <stop offset="1" stopColor="#F24A3F" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_14665"
@@ -566,8 +566,8 @@ export const Pin6 = ({ width = "84", height = "84" }) => {
           y2="48.0407"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFD600" />
-          <stop offset="0.623942" stop-color="#FFB800" />
+          <stop stopColor="#FFD600" />
+          <stop offset="0.623942" stopColor="#FFB800" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -582,8 +582,8 @@ export const Pin7 = ({ width = "84", height = "84" }) => {
         fill="#2F2F2F"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M23.9134 17.0998C23.9134 13.3659 32.2043 10.333 42.4319 10.333C52.6594 10.333 60.9504 13.3585 60.9504 17.0998V50.2328C60.9504 53.9667 52.6594 56.9996 42.4319 56.9996C32.2043 56.9996 23.9134 53.9741 23.9134 50.2328V47.3697H22.7149C19.7036 47.3697 17.2468 44.8137 17.2468 41.6744V26.3984C17.2468 23.2591 19.6951 20.7031 22.7149 20.7031H23.9134V17.0998ZM23.9134 24.9317H21.9216C21.2306 24.9317 20.6676 25.5921 20.6676 26.3984V41.6744C20.6676 42.4807 21.2306 43.1411 21.9216 43.1411H23.9134V24.9317Z"
         fill="url(#paint0_linear_387_14666)"
       />
@@ -606,8 +606,8 @@ export const Pin7 = ({ width = "84", height = "84" }) => {
           y2="54.196"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEF8FF" />
-          <stop offset="0.88034" stop-color="#CDE4F3" />
+          <stop stopColor="#EEF8FF" />
+          <stop offset="0.88034" stopColor="#CDE4F3" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14666"
@@ -617,8 +617,8 @@ export const Pin7 = ({ width = "84", height = "84" }) => {
           y2="53.2961"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.03" stop-color="#FFD366" />
-          <stop offset="0.96" stop-color="#FFB31F" />
+          <stop offset="0.03" stopColor="#FFD366" />
+          <stop offset="0.96" stopColor="#FFB31F" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14666"
@@ -628,8 +628,8 @@ export const Pin7 = ({ width = "84", height = "84" }) => {
           y2="37.6521"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#FFF6D8" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#FFF6D8" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -684,8 +684,8 @@ export const Pin8 = ({ width = "84", height = "84" }) => {
           y2="53.7312"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.427403" stop-color="#FFBAB7" />
-          <stop offset="1" stop-color="#FF908A" />
+          <stop offset="0.427403" stopColor="#FFBAB7" />
+          <stop offset="1" stopColor="#FF908A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14667"
@@ -695,8 +695,8 @@ export const Pin8 = ({ width = "84", height = "84" }) => {
           y2="44.4491"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF9A96" />
-          <stop offset="1" stop-color="#FF7871" />
+          <stop stopColor="#FF9A96" />
+          <stop offset="1" stopColor="#FF7871" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -710,10 +710,10 @@ export const Pin9 = ({ width = "84", height = "84" }) => {
         d="M42 10C49.6913 10 57.0675 13.1653 62.5061 18.7996C67.9447 24.4338 71 32.0756 71 40.0436C71 52.739 62.3892 66.5745 45.3908 81.698C44.4456 82.5391 43.2405 83.0011 41.9944 83C40.7484 82.9989 39.5441 82.5347 38.6003 81.6918L37.476 80.6811C21.2301 65.952 13 52.4555 13 40.0436C13 32.0756 16.0553 24.4338 21.4939 18.7996C26.9325 13.1653 34.3087 10 42 10Z"
         fill="#2F2F2F"
       />
-      <g clip-path="url(#clip0_387_14731)">
+      <g clipPath="url(#clip0_387_14731)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M65.3692 7.04597C66.5609 8.45769 67.5839 10.0485 68.2905 11.8079H68.2694C70.7899 18.0448 69.6826 25.0507 65.8121 29.9391C64.6732 31.0137 62.9647 29.7916 63.3971 28.2218L63.4815 27.9163C63.7662 25.0402 63.2811 22.143 62.0683 19.5724C61.3828 18.1291 60.4231 16.8964 59.263 15.9167L52.4029 40.615C52.389 40.6676 52.3749 40.72 52.3605 40.7724C52.2775 41.1432 52.1839 41.5041 52.0601 41.865V41.8755C51.7169 42.8986 51.2622 43.8757 50.7092 44.7942C47.6272 50.2877 41.7471 54 35 54C25.0589 54 17 45.9411 17 36C17 26.0589 25.0589 18 35 18C42.2919 18 48.571 22.3359 51.3999 28.5702L59.59 4.24359C59.9169 3.25328 60.9188 2.75812 61.8152 3.11632C62.0683 3.22167 62.3003 3.39023 62.4901 3.61147L65.3692 7.04597Z"
           fill="url(#paint0_linear_387_14731)"
         />
@@ -724,9 +724,9 @@ export const Pin9 = ({ width = "84", height = "84" }) => {
           ry="5.38998"
           transform="rotate(23.4724 26.9287 28.4468)"
           fill="white"
-          fill-opacity="0.5"
+          fillOpacity="0.5"
         />
-        <circle cx="22.617" cy="36.532" r="1.617" fill="white" fill-opacity="0.5" />
+        <circle cx="22.617" cy="36.532" r="1.617" fill="white" fillOpacity="0.5" />
         <path
           d="M44.1656 0.866675C43.9316 0.304374 43.1064 0.404078 43.013 1.00594L42.9508 1.40705C42.4724 4.49057 40.7154 7.22922 38.112 8.94944C37.7292 9.20241 37.7994 9.78389 38.2315 9.93839C41.1697 10.989 43.5284 13.2303 44.7275 16.1112L44.8835 16.4859C45.1175 17.0482 45.9427 16.9485 46.0361 16.3467L46.0983 15.9456C46.5767 12.862 48.3337 10.1234 50.9371 8.40316C51.32 8.15019 51.2497 7.56871 50.8176 7.41421C47.8794 6.3636 45.5207 4.12225 44.3216 1.24142L44.1656 0.866675Z"
           fill="url(#paint1_linear_387_14731)"
@@ -738,8 +738,8 @@ export const Pin9 = ({ width = "84", height = "84" }) => {
       </g>
       <defs>
         <linearGradient id="paint0_linear_387_14731" x1="52" y1="5.5" x2="36.5" y2="44" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#B3FF53" />
-          <stop offset="1" stop-color="#DDFF57" />
+          <stop stopColor="#B3FF53" />
+          <stop offset="1" stopColor="#DDFF57" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14731"
@@ -749,8 +749,8 @@ export const Pin9 = ({ width = "84", height = "84" }) => {
           y2="18.4653"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEFFD7" />
-          <stop offset="1" stop-color="#C1FF6E" />
+          <stop stopColor="#EEFFD7" />
+          <stop offset="1" stopColor="#C1FF6E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_387_14731"
@@ -760,8 +760,8 @@ export const Pin9 = ({ width = "84", height = "84" }) => {
           y2="10.9006"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EEFFD7" />
-          <stop offset="1" stop-color="#C1FF6E" />
+          <stop stopColor="#EEFFD7" />
+          <stop offset="1" stopColor="#C1FF6E" />
         </linearGradient>
         <clipPath id="clip0_387_14731">
           <rect width="60" height="60" fill="white" transform="translate(12)" />
@@ -815,16 +815,16 @@ export const Pin10 = ({ width = "84", height = "84" }) => {
           y2="14.7426"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient id="paint1_linear_387_14732" x1="66.5" y1="28" x2="66.5" y2="37" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient id="paint2_linear_387_14732" x1="19.5" y1="16" x2="19.5" y2="22" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_387_14732"
@@ -834,8 +834,8 @@ export const Pin10 = ({ width = "84", height = "84" }) => {
           y2="19.2158"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_387_14732"
@@ -845,8 +845,8 @@ export const Pin10 = ({ width = "84", height = "84" }) => {
           y2="60.0034"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9D3BFF" />
-          <stop offset="1" stop-color="#BB2CFF" />
+          <stop stopColor="#9D3BFF" />
+          <stop offset="1" stopColor="#BB2CFF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_387_14732"
@@ -856,8 +856,8 @@ export const Pin10 = ({ width = "84", height = "84" }) => {
           y2="51.1805"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3DFFF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3DFFF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_387_14732"
@@ -867,8 +867,8 @@ export const Pin10 = ({ width = "84", height = "84" }) => {
           y2="57.1027"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3DFFF" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3DFFF" />
         </linearGradient>
       </defs>
     </TemplatePin>
@@ -901,9 +901,9 @@ export const Pin11 = ({ width = "84", height = "84" }) => {
         ry="5.49571"
         transform="rotate(23.4724 32.2176 13.0903)"
         fill="#FF8B84"
-        fill-opacity="0.5"
+        fillOpacity="0.5"
       />
-      <circle cx="27.8216" cy="21.3343" r="1.64871" fill="#FF8B84" fill-opacity="0.5" />
+      <circle cx="27.8216" cy="21.3343" r="1.64871" fill="#FF8B84" fillOpacity="0.5" />
       <defs>
         <linearGradient
           id="paint0_linear_387_14734"
@@ -913,8 +913,8 @@ export const Pin11 = ({ width = "84", height = "84" }) => {
           y2="37.8948"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF5E48" />
-          <stop offset="1" stop-color="#FF2F2F" />
+          <stop stopColor="#FF5E48" />
+          <stop offset="1" stopColor="#FF2F2F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_387_14734"
@@ -924,8 +924,8 @@ export const Pin11 = ({ width = "84", height = "84" }) => {
           y2="46.8006"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CAECFF" />
-          <stop offset="1" stop-color="#ABD3E9" />
+          <stop stopColor="#CAECFF" />
+          <stop offset="1" stopColor="#ABD3E9" />
         </linearGradient>
       </defs>
     </TemplatePin>

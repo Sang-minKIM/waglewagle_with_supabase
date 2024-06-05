@@ -29,6 +29,7 @@
       "~/organisms/*": ["src/components/organisms/*"],
       "~/templates/*": ["src/components/templates/*"],
       "~/pages/*": ["src/pages/*"],
+      "~/shared/*": ["src/shared/*"],
       "~/style/*": ["src/style/*"],
       "~/*": ["src/*"]
     }

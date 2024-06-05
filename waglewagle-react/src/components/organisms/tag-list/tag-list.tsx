@@ -8,7 +8,9 @@ export const TagList = () => {
   return (
     <Container>
       {TagListModel.map(({ tagId, tagName }) => (
-        <Tag tagId={tagId}>{tagName}</Tag>
+        <Tag key={tagId} tagId={tagId}>
+          {tagName}
+        </Tag>
       ))}
     </Container>
   );
