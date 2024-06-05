@@ -8,12 +8,12 @@ import { Profile } from "~/molecules/profile";
 
 import { PostProps } from "./post.types";
 
-export const Post = ({ avatarId = "0", name, createdAt, likeCount, imgSrc, content }: PostProps) => {
+export const Post = ({ avatarId = 0, name, createdAt, likeCount, imgSrc, content }: PostProps) => {
   return (
     <Container>
       <Header>
         <Profile avatarId={avatarId} name={name} createdAt={createdAt} />
-        <TransparentBtn>
+        <TransparentBtn onClick={() => {}}>
           <Text font="M14" color="gray300">
             신고
           </Text>

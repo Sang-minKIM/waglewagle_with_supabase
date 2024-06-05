@@ -1,4 +1,4 @@
-import { PostListContainer } from "~/containers/post-list";
+import { PostListContainer } from "~/components/containers/post-list";
 import { StationNav } from "~/organisms/station-nav";
 import { TagList } from "~/organisms/tag-list";
 
