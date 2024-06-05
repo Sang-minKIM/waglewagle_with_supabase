@@ -13,6 +13,7 @@ export default ({ mode }: { mode: string }) => {
         "~/molecules": path.resolve(__dirname, "./src/components/molecules"),
         "~/organisms": path.resolve(__dirname, "./src/components/organisms"),
         "~/templates": path.resolve(__dirname, "./src/components/templates"),
+        "~/containers": path.resolve(__dirname, "./src/components/containers"),
         "~/pages": path.resolve(__dirname, "./src/pages"),
         "~/shared": path.resolve(__dirname, "./src/shared"),
         "~/style": path.resolve(__dirname, "./src/style"),
