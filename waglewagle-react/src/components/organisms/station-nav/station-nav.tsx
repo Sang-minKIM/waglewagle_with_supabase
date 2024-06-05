@@ -1,24 +1,28 @@
+import { useNavigate } from "react-router-dom";
+
 import styled from "@emotion/styled";
 
 import { TransparentBtn } from "~/atoms/buttons";
 import { Text } from "~/atoms/text";
 
 import { StationNameBoard } from "~/molecules/station-name-board";
+import { stationList } from "~/shared/station-list.model";
 
 import { StationNavProps } from "./station-nav.types";
 
-export const StationNav = ({ leftStation, rightStation, currentStation }: StationNavProps) => {
+export const StationNav = ({ leftStationIdx, rightStationIdx, currentStationIdx }: StationNavProps) => {
+  const navigate = useNavigate();
   return (
     <Nav>
-      <TransparentBtn>
+      <TransparentBtn onClick={() => navigate(`/station/${leftStationIdx}`)}>
         <Text font="B16" color="gray500">
-          {leftStation}
+          {stationList[leftStationIdx]}
         </Text>
       </TransparentBtn>
-      <StationNameBoard name={currentStation} />
-      <TransparentBtn>
+      <StationNameBoard name={stationList[currentStationIdx]} />
+      <TransparentBtn onClick={() => navigate(`/station/${rightStationIdx}`)}>
         <Text font="B16" color="gray500">
-          {rightStation}
+          {stationList[rightStationIdx]}
         </Text>
       </TransparentBtn>
     </Nav>
