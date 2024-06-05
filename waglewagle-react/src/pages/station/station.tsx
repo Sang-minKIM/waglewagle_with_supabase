@@ -4,7 +4,7 @@ import { PostListContainer } from "~/containers/post-list";
 import { StationNav } from "~/organisms/station-nav";
 import { TagList } from "~/organisms/tag-list";
 
-export const PostPage = () => {
+export const StationPage = () => {
   // Todo: station 실제 정보 삽입
 
   return (
