@@ -1,20 +1,21 @@
 import styled from "@emotion/styled";
 
-import { Post } from "./post";
-import { PostListDataProps } from "./post.types";
+import { PostData } from "~/containers/post-list";
 
-export const PostList = ({ postList }: { postList: PostListDataProps[] }) => {
+import { Post } from "./post";
+
+export const PostList = ({ posts }: { posts: PostData[] }) => {
   // TODO: createTime 형식 맞추기
   return (
     <Container>
-      {postList.map(({ id, avatarId, tag, createdTime, like, imageUrl, content }) => (
+      {posts.map(({ id, tagId, tag, createdTime, like, imageUrl, content }) => (
         <Post
           key={id}
-          avatarId={avatarId}
+          avatarId={tagId}
           name={tag.nickname}
           createdAt={createdTime}
           likeCount={like}
-          imgSrc={imageUrl}
+          imgSrc={imageUrl?.image_url}
           content={content}
         />
       ))}
