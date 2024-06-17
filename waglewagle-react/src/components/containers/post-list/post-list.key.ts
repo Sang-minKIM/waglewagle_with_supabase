@@ -10,7 +10,7 @@ export const POST_LIST_ENDPOINT = {
 
 export const POST_LIST_KEY = {
   default: ["post-list"],
-  pagination: (
+  sort: (
     body: { stationId: string; pageSize: number; pageNumber: number },
   ) => {
     return [

@@ -12,7 +12,7 @@ export const usePostListQuery = (
   pageNumber: number = 1,
 ): UseSuspenseQueryResult<PostListType> =>
   useSuspenseQuery<PostListType>({
-    queryKey: POST_LIST_KEY.pagination({ stationId, pageSize, pageNumber }),
+    queryKey: POST_LIST_KEY.sort({ stationId, pageSize, pageNumber }),
     queryFn: () =>
       fetchData(
         POST_LIST_ENDPOINT.sort({ stationId, pageSize, pageNumber }),
