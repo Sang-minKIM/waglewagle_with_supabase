@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { useParams } from "react-router-dom";
 
 import { PostTemplate } from "~/templates/post";
@@ -25,7 +26,9 @@ export const StationPage = () => {
         <TagList />
       </PostTemplate.Header>
       <PostTemplate.Main>
-        <PostListContainer stationId={stationId!} />
+        <Suspense fallback={"로딩중"}>
+          <PostListContainer stationId={stationId!} />
+        </Suspense>
       </PostTemplate.Main>
     </PostTemplate>
   );

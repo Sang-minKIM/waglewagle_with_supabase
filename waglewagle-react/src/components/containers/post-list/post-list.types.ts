@@ -1,4 +1,8 @@
-export interface PostData {
+export interface PostListType {
+  posts: PostType[];
+}
+
+interface PostType {
   id: number;
   name: string;
   createdTime: string;
