@@ -35,11 +35,12 @@
       "~/*": ["src/*"]
     }
   },
-  "include": ["src", "src/style"],
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "dist",
     "test",
+    ".storybook",
     "**/.stories.tsx",
     "**/*.stories.ts",
     "**/.stories.jsx",
