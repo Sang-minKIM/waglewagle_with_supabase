@@ -8,8 +8,9 @@ export default {
 };
 
 export const Default = (args: StationNavProps) => <StationNav {...args} />;
+
 Default.args = {
-  leftStation: "봉천",
-  currentStation: "서울대입구",
-  rightStation: "낙성대",
+  leftStationIdx: 28,
+  rightStationIdx: 29,
+  currentStationIdx: 30,
 };

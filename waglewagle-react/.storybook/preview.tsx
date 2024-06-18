@@ -1,8 +1,10 @@
 import React from "react";
+import { BrowserRouter, RouterProvider } from "react-router-dom";
 
 import type { Preview } from "@storybook/react";
 
 import { ProviderList } from "../src/providers";
+import { router } from "../src/router";
 import { theme } from "../src/style";
 
 const preview: Preview = {
@@ -18,11 +20,11 @@ const preview: Preview = {
 
 export const decorators: Array<(Story: React.ComponentType) => JSX.Element> = [
   (Story: React.ComponentType) => (
-    <>
-      <ProviderList>
+    <ProviderList>
+      <BrowserRouter>
         <Story />
-      </ProviderList>
-    </>
+      </BrowserRouter>
+    </ProviderList>
   ),
 ];
 
