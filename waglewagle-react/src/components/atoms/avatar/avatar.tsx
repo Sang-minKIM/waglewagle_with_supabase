@@ -4,7 +4,7 @@ import { Icons } from "~/atoms/icons";
 
 import { Flex } from "~/style";
 
-export const Avatar = ({ avatarId: id }: { avatarId: string }) => {
+export const Avatar = ({ avatarId: id }: { avatarId: number }) => {
   const iconKey = "Tag" + id;
   const IconComponent = Icons[iconKey as keyof typeof Icons];
   return (
