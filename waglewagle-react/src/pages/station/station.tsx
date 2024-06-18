@@ -7,7 +7,8 @@ import { TagList } from "~/organisms/tag-list";
 
 import { PostTemplate } from "~/templates/post";
 
-import { PostListContainer } from "~/components/containers/post-list";
+import { PostListContainer } from "~/containers/post-list";
+
 import { stationList } from "~/shared";
 
 export const StationPage = () => {
