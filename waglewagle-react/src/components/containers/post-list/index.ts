@@ -1,2 +1,2 @@
 export * from "./post-list";
-export * from "./post-list.types";
+export * from "../../organisms/post/post-list.types";

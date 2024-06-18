@@ -4,7 +4,7 @@ import {
 } from "@tanstack/react-query";
 import { fetchData } from "~/utils/api";
 import { POST_LIST_ENDPOINT, POST_LIST_KEY } from "./post-list.key";
-import { PostListType } from "./post-list.types";
+import { PostListType } from "~/organisms/post";
 
 export const usePostListQuery = (
   stationId: string,

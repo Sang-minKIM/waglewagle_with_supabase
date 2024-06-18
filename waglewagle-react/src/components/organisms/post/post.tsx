@@ -32,7 +32,7 @@ export const Post = ({ avatarId = 0, name, createdAt, likeCount, imgSrc, content
   );
 };
 
-const Container = styled.li`
+export const Container = styled.li`
   width: 100%;
   max-width: 480px;
   height: max-content;
@@ -42,7 +42,7 @@ const Container = styled.li`
   background-color: ${({ theme }) => theme.colors.gray800};
 `;
 
-const Header = styled.header`
+export const Header = styled.header`
   width: 100%;
   height: 66px;
   display: flex;
@@ -53,12 +53,12 @@ const Header = styled.header`
   padding: 0 16px;
 `;
 
-const Content = styled.section`
+export const Content = styled.section`
   width: 100%;
   height: max-content;
 `;
 
-const Footer = styled.footer`
+export const Footer = styled.footer`
   width: 100%;
   height: 56px;
   display: flex;

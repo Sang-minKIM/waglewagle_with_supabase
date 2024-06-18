@@ -1,10 +1,9 @@
 import styled from "@emotion/styled";
 
-import { PostData } from "~/containers/post-list";
-
 import { Post } from "./post";
+import { PostListType } from "./post-list.types";
 
-export const PostList = ({ posts }: { posts: PostData[] }) => {
+export const PostList = ({ posts }: PostListType) => {
   // TODO: createTime 형식 맞추기
   return (
     <Container>
@@ -23,7 +22,7 @@ export const PostList = ({ posts }: { posts: PostData[] }) => {
   );
 };
 
-const Container = styled.ul`
+export const Container = styled.ul`
   scrollbar-width: none; /* 파이어폭스 */
   /* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
   &::-webkit-scrollbar {
