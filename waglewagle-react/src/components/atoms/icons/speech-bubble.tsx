@@ -1,4 +1,4 @@
-export const SpeechBubble = ({ width = 120, height = 120 }) => {
+export const SpeechBubble = ({ width = "120", height = "120" }) => {
   return (
     <svg width={width} height={height} viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
       <mask

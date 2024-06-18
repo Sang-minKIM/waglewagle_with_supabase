@@ -6,7 +6,7 @@ import { Text } from "~/atoms/text";
 import { Flex } from "~/style/index";
 
 interface ProfileProps {
-  avatarId: string;
+  avatarId: number;
   name: string;
   createdAt: string;
 }

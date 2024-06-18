@@ -1,20 +1,20 @@
 import styled from "@emotion/styled";
 
 import { Post } from "./post";
-import { PostListDataProps } from "./post.types";
+import { PostListType } from "./post-list.types";
 
-export const PostList = ({ postList }: { postList: PostListDataProps[] }) => {
+export const PostList = ({ posts }: PostListType) => {
   // TODO: createTime 형식 맞추기
   return (
     <Container>
-      {postList.map(({ id, avatarId, tag, createdTime, like, imageUrl, content }) => (
+      {posts.map(({ id, tagId, tag, createdTime, like, imageUrl, content }) => (
         <Post
           key={id}
-          avatarId={avatarId}
+          avatarId={tagId}
           name={tag.nickname}
           createdAt={createdTime}
           likeCount={like}
-          imgSrc={imageUrl}
+          imgSrc={imageUrl?.image_url}
           content={content}
         />
       ))}
@@ -22,7 +22,7 @@ export const PostList = ({ postList }: { postList: PostListDataProps[] }) => {
   );
 };
 
-const Container = styled.ul`
+export const Container = styled.ul`
   scrollbar-width: none; /* 파이어폭스 */
   /* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
   &::-webkit-scrollbar {

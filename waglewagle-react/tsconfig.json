@@ -28,6 +28,7 @@
       "~/molecules/*": ["src/components/molecules/*"],
       "~/organisms/*": ["src/components/organisms/*"],
       "~/templates/*": ["src/components/templates/*"],
+      "~/containers/*": ["src/components/containers/*"],
       "~/pages/*": ["src/pages/*"],
       "~/shared/*": ["src/shared/*"],
       "~/style/*": ["src/style/*"],

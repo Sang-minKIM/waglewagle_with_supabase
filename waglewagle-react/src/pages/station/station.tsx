@@ -1,10 +1,14 @@
+import { Suspense } from "react";
 import { useParams } from "react-router-dom";
+
+import { PostSkeleton } from "~/organisms/post/post-skeleton";
+import { StationNav } from "~/organisms/station-nav";
+import { TagList } from "~/organisms/tag-list";
 
 import { PostTemplate } from "~/templates/post";
 
 import { PostListContainer } from "~/containers/post-list";
-import { StationNav } from "~/organisms/station-nav";
-import { TagList } from "~/organisms/tag-list";
+
 import { stationList } from "~/shared";
 
 export const StationPage = () => {
@@ -25,7 +29,9 @@ export const StationPage = () => {
         <TagList />
       </PostTemplate.Header>
       <PostTemplate.Main>
-        <PostListContainer />
+        <Suspense fallback={<PostSkeleton />}>
+          <PostListContainer stationId={stationId!} />
+        </Suspense>
       </PostTemplate.Main>
     </PostTemplate>
   );

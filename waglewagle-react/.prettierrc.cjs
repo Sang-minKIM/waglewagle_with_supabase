@@ -7,6 +7,7 @@ module.exports = {
     "^~/molecules/(.*)$",
     "^~/organisms/(.*)$",
     "^~/templates/(.*)$",
+    "^~/containers/(.*)$",
     "^~/pages/(.*)$",
     "^~/(.*)$",
     "^[./]",
