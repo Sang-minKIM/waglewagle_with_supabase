@@ -30,7 +30,7 @@ export default ({ mode }: { mode: string }) => {
     },
     build: {
       rollupOptions: {
-        input: ["src/main.tsx"],
+        input: ["index.html"],
         external: (id: string) =>
           id.endsWith(".stories.ts") || id.endsWith(".stories.tsx") ||
           id.endsWith(".stories.js") || id.endsWith(".stories.jsx"),
