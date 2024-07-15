@@ -35,7 +35,16 @@
       "~/*": ["src/*"]
     }
   },
-  "include": ["src", "src/style"],
-  "exclude": ["node_modules", "dist", "test"],
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    ".storybook",
+    "**/.stories.tsx",
+    "**/*.stories.ts",
+    "**/.stories.jsx",
+    "**/*.stories.js"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

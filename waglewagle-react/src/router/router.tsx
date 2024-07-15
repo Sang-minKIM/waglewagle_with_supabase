@@ -7,7 +7,7 @@ import { ROUTE } from "./route.model";
 export const router = createBrowserRouter([
   {
     path: ROUTE.root,
-    element: null,
+    element: <div>home</div>,
   },
   {
     path: ROUTE.station(":stationId"),
